@@ -119,7 +119,7 @@ def render_map(
     ax.margins(0)
     ax.set_aspect("equal", adjustable="box")
     ax.set_axis_off()
-    ax.set_title("Akumulasi Hotspots (Jul 15 - Aug 31, 2026)", fontsize=18, pad=14)
+    ax.set_title("Akumulasi Hotspots (Jul 15 - Nov 06, 2026)", fontsize=18, pad=14)
 
     cx.add_basemap(
         ax,
