@@ -25,6 +25,15 @@ pip install -r requirements.txt
 
 `plot_hotspots.py` reads the CSV path set in `CSV_FILE` (update that constant if your crawled filename differs).
 
+### Batas wilayah kabupaten/kota (SHP / GDB)
+
+Data batas administrasi kabupaten/kota dari **Badan Informasi Geospasial (BIG)** bisa diunduh di:
+
+- [Drive BIG — Batas Wilayah](https://drive.big.go.id/s/9x9dJWSNfQ3wp7S?opendetails=)
+- [Tanah Air Indonesia — Portal Unduh](https://tanahair.indonesia.go.id/portal-web/unduh)
+
+Setelah diunduh, letakkan folder GDB (atau ekstrak SHP) di root proyek ini, lalu sesuaikan `KABKOTA_GDB` / `KABKOTA_LAYER` di `plot_hotspots.py` jika nama file atau layer berbeda.
+
 ## 1. Crawl hotspot data
 
 Edit date range and output name in `crawl_hotspots.py` if needed (`START_DATE`, `END_DATE`, `OUTPUT_FILE`), then:
