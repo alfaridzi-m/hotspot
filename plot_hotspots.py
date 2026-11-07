@@ -12,7 +12,7 @@ from matplotlib.patches import Polygon
 from pyproj import Transformer
 from shapely import force_2d
 
-CSV_FILE = Path(__file__).parent / "kalimantan_hotspots_20260715_20260831.csv"
+CSV_FILE = Path(__file__).parent / "kalimantan_hotspots_20260715_20261106.csv"
 KABKOTA_GDB = Path(__file__).parent / "BATASWILAYAH_KABKOTA_20260601.gdb"
 KABKOTA_LAYER = "BATAS_KABKOTA_AR"
 OUTPUT_WITH_RECT = Path(__file__).parent / "kalimantan_hotspots_map_with_rectangle.png"
